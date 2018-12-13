@@ -1,0 +1,241 @@
+body {
+  font-family: 'Segoe UI';
+  color: #293347;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+
+.hero {
+  height: 500px;
+  line-height: 2em;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.header-imageContainer {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 60px;
+}
+
+.courses-title {
+  text-align: center;
+}
+
+.header ol {
+  list-style: none;
+  display: flex;
+}
+
+.hero img {
+  width: auto;
+  height: 100%;
+  margin-left: -60px;
+}
+
+.project-details {
+  margin: 20px;
+}
+
+.projects {
+  margin: 0 50px 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
+
+.project-image {
+  border-radius: 20%;
+  box-shadow: 4px 3px 12px -2px rgba(0,0,0,0.59);
+}
+
+
+.project {
+  border: 1px solid #29334733;
+  border-radius: 80px;
+  margin: 50px 0 50px 0;
+  padding: 10px 0px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 4px 3px 12px -2px rgba(0,0,0,0.59);
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  color: #293347;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 5px 0 5px 0;
+  padding: 5px 20px;
+  background-color: #FF3A1F;
+  border-radius: 40px;
+  color: white;
+}
+
+p, .project li{
+  margin: 5px 0 5px 0;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px; 
+}
+
+.header h2 {
+  font-size: 35px;
+  color: #FF3A1F;
+  margin: 0 25px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+ul {
+  margin: 5px;
+  padding: 15px;
+}
+
+.header li {
+  margin: 10px;
+}
+
+.courses {
+  margin: 50px 20px;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.course {
+  margin: 10px;
+  box-shadow: 4px 3px 12px -2px rgba(0,0,0,0.59);
+  border-radius: 20px;
+  width: 500px;
+}
+.course-imageContainer {
+  text-align: center;
+}
+
+.course-details {
+  margin: 20px;
+  padding: 25px;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 57, 31, 0.288);
+  text-align: center;
+}
+
+.course p{
+  margin-bottom: 30px;
+}
+
+.course-url, .header a {
+  border: 2px solid #FF3A1F;
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #FF3A1F;
+  margin-top: 20px;
+  font-weight: 650;
+}
+
+.contact{
+  background-color: #FF3A1F;
+  color: white;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+  margin:0 0 0 100px;
+  display: flex;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 55px;
+  font-weight: 600;
+  width: 900px;
+}
+
+.form-email input{
+  border: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-style: solid;
+  font-weight: inherit;
+  /*margin: 5px 0;*/
+}
+
+.form-email button {
+  width: 100px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: inherit;
+}
+
+.social-link {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.footer{
+  height: 30px;
+  background-color: #293347;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+.footer p, a{
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+/*
+orange: #FF3A1F
+grey: #293347
+*/
